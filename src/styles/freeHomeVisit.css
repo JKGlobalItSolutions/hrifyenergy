@@ -1,0 +1,148 @@
+.fhv-main {
+    background-color: #ffffff;
+}
+
+/* Hero Section */
+.fhv-hero {
+    width: 100%;
+}
+
+.fhv-hero-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.fhv-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1.05) saturate(1.05);
+}
+
+/* Header Banner */
+.fhv-header-banner {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.fhv-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.fhv-blue-banner {
+    background-color: #004d61;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
+
+/* Description Section */
+.fhv-description {
+    padding: 30px 0;
+}
+
+.fhv-description-box {
+    border: 1px solid #ddd;
+    padding: 30px 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fcfcfc;
+}
+
+.fhv-description-box p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Features Section */
+.fhv-features {
+    padding: 40px 0 80px;
+}
+
+.fhv-features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.fhv-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fhv-checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.fhv-check-icon {
+    color: #008191;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.fhv-checklist span {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333;
+    font-weight: 500;
+}
+
+.fhv-img-wrapper {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: white;
+}
+
+.fhv-img-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .fhv-features-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .fhv-hero-container {
+        height: 250px;
+    }
+
+    .fhv-title {
+        font-size: 24px;
+        padding: 0 15px;
+    }
+
+    .fhv-blue-banner {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .fhv-description-box {
+        padding: 20px;
+    }
+
+    .fhv-checklist span {
+        font-size: 15px;
+    }
+
+    .fhv-img-wrapper {
+        margin-top: 10px;
+    }
+}

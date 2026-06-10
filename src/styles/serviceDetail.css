@@ -1,0 +1,160 @@
+.sd-main {
+    background-color: #ffffff;
+}
+
+/* Hero Section */
+.sd-hero {
+    width: 100%;
+}
+
+.sd-hero-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+/* Stacked Banner Layout */
+.sd-hero-stacked {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sd-full-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: contrast(1.05) saturate(1.05);
+}
+
+.sd-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1.05) saturate(1.05);
+}
+
+.sd-hero-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: var(--font-serif);
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+/* Header Banner */
+.sd-header-banner {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sd-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.sd-blue-banner {
+    background-color: #004d61;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+/* Description Section */
+.sd-description {
+    padding: 30px 0;
+}
+
+.sd-description-box {
+    border: 1px solid #ddd;
+    padding: 30px 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fcfcfc;
+}
+
+.sd-description-box p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Content Grid Section */
+.sd-content-section {
+    padding: 40px 0 80px;
+}
+
+.sd-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.sd-text-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 500;
+}
+
+.sd-img-wrapper {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: white;
+}
+
+.sd-img-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .sd-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .sd-hero-container {
+        height: 250px;
+    }
+
+    .sd-hero-overlay-text {
+        font-size: 24px;
+        padding: 0 15px;
+    }
+
+    .sd-title {
+        font-size: 24px;
+        padding: 0 15px;
+    }
+
+    .sd-blue-banner {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .sd-description-box {
+        padding: 20px;
+    }
+
+    .sd-text-content {
+        font-size: 15px;
+        text-align: center;
+    }
+}

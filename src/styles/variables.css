@@ -1,0 +1,50 @@
+:root {
+  /* Primary Colors */
+  --primary-dark-teal: #0B3D4D;
+  --primary-navy: #0A2E3C;
+  --secondary-cyan: #008191;
+  --accent-yellow: #FFD700;
+  
+  /* Background Colors */
+  --background-white: #FFFFFF;
+  --background-light-gray: #F5F5F5;
+  --background-dark: #0B3D4D;
+  
+  /* Text Colors */
+  --text-dark: #333333;
+  --text-white: #FFFFFF;
+  --text-light: #757575;
+  
+  /* UI Colors */
+  --card-blue: #0A2E3C;
+  --card-cyan: #008191;
+  
+  /* Shadows & Effects */
+  --shadow: rgba(0, 0, 0, 0.1);
+  --shadow-lg: rgba(0, 0, 0, 0.2);
+  
+  /* Border Radius */
+  --border-radius: 4px;
+  --border-radius-sm: 2px;
+  --border-radius-lg: 8px;
+  
+  /* Typography */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Roboto", sans-serif;
+  --font-family: var(--font-sans);
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+  --font-size-2xl: 36px;
+  --font-size-3xl: 52px;
+  --line-height: 1.5;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+}
