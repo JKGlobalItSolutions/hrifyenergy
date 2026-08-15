@@ -20,7 +20,7 @@ import img3 from '../../assets/FirstPage/img3.png';
 import img4 from '../../assets/FirstPage/img4.png';
 import WhyChooseEnergyBusiness from '../../assets/FirstPage/WhyChooseEnergyBusiness.png';
 import md_image from '../../assets/FirstPage/md_image.png';
-import hrifysmalllogo from '../../assets/FirstPage/hrifysmalllogo.jpg';
+import hrifysmalllogo from '../../assets/FirstPage/hrifysmalllogo.png';
 
 const Home = () => {
   const fadeInUp = {
@@ -175,7 +175,7 @@ const Home = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2>Why Choose Hrify Energy Business?</h2>
+              <h2>Why Choose Rayfluxsolar Business?</h2>
               <ul className="why-choose-bullet">
                 <li><Check size={16} /> High-quality solar panels & inverters</li>
                 <li><Check size={16} /> Experienced solar experts & technicians</li>

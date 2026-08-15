@@ -4,6 +4,10 @@ import { ChevronLeft, ChevronRight, Star, Phone, Mail, MousePointer2, User } fro
 import { motion } from 'framer-motion';
 import '../styles/calculator.css';
 import banner from '../../assets/SecondPage/Banner_2.png';
+import img_1 from '../../assets/SecondPage/img_1.png';
+import img_2 from '../../assets/SecondPage/img_2.png';
+import img_3 from '../../assets/SecondPage/img_3.png';
+
 
 const SolarCalculator = () => {
   const [billAmount, setBillAmount] = useState(2500);
@@ -38,7 +42,7 @@ const SolarCalculator = () => {
         <div className="container">
           <motion.div className="calc-header" {...fadeInUp}>
             <h2>Solar Savings Calculator</h2>
-            <p>Calculate how much you can save by switching to solar energy with Hrify Energy Business</p>
+            <p>Calculate how much you can save by switching to solar energy with Rayfluxsolar Business</p>
           </motion.div>
 
           <motion.div className="calc-input-box" {...fadeInUp}>
@@ -60,13 +64,13 @@ const SolarCalculator = () => {
             <div className="results-grid">
               <div className="results-left">
                 <div className="results-illustration">
-                  <img src="/assets/SecondPage/img_1.png" alt="Savings Data" />
+                  <img src={img_1} alt="Savings Data" />
                 </div>
               </div>
 
               <div className="results-right">
                 <div className="results-illustration">
-                  <img src="/assets/SecondPage/img_2.png" alt="Bill Comparison" />
+                  <img src={img_2} alt="Bill Comparison" />
                 </div>
               </div>
             </div>
@@ -77,7 +81,7 @@ const SolarCalculator = () => {
           </motion.div>
 
           <motion.div className="full-width-image" {...fadeInUp}>
-            <img src="/assets/SecondPage/img_3.png" alt="Full Width Image" />
+            <img src={img_3} alt="Full Width Image" />
           </motion.div>
         </div>
       </section>
@@ -103,7 +107,7 @@ const SolarCalculator = () => {
           >
             <span><Phone size={14} /> 8438438413 , 8807880764</span>
             <span className="cta-strip-separator">|</span>
-            <span><Mail size={14} /> hrify.energy@gmail.com</span>
+            <span><Mail size={14} /> rayfluxsolar@gmail.com</span>
           </motion.div>
           <motion.div className="cta-features" {...fadeInUp}>
             <p>[Quick & easy estimation][Accurate solar sizing guidance][Cost & savings transparency][Helps plan your solar investment]</p>
